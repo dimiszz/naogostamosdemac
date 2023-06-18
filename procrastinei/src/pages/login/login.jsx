@@ -15,7 +15,17 @@ export default function login() {
 							Cadastrar-se
 						</span>
 
+						<span className=''> Nome de Usuário:</span>
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="text" placeholder="Nome de Usuário" />
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<span className=''> Email:</span>
 						<input class="input100" type="text" name="email" placeholder="Email" />
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
@@ -24,31 +34,50 @@ export default function login() {
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" name="pass" placeholder="Password" />
+					<span className=''> Senha:</span>
+						<input class="input100" type="password" name="pass" placeholder="Senha" />
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
 						</span>
 					</div>
 					
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+					<span className=''> Confirmar Senha:</span>
+						<input class="input100" type="password" name="pass" placeholder="Confirmar senha" />
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+					
+
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+					<span className=''> Estação:</span>
+						<input class="input100" type="text" placeholder="Digite sua estação" />
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+					
+
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
-							Login
+							Entrar
 						</button>
 					</div>
 
 					<div class="text-center p-t-12">
-						<span class="txt1">
-							Forgot
-						</span>
 						<a class="txt2" href="#">
-							Username / Password?
+							Esqueceu sua senha?
 						</a>
 					</div>
 
 					<div class="text-center p-t-136">
+						<span>Não possui uma conta? </span>
 						<a class="txt2" href="#">
-							Create your Account
+							Criar conta
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
 					</div>
