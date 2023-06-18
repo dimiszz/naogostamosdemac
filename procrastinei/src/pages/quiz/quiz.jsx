@@ -5,23 +5,28 @@ import { useState } from 'react';
 import BarraLateral from './../../components/BarraLateral/barraLateral';
 import { useNavigate } from 'react-router-dom';
 import './styles.css'
+import { useEffect } from 'react';
 
 export default function resumo() {
 
     const navigate = useNavigate()
 
-    function Check(res){
-        if(res == 1){
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
+    function Check(res) {
+        if (res == 1) {
             alert('Você errou')
         }
-        if(res == 2){
+        if (res == 2) {
             alert('Você errou')
         }
-        if(res == 3){
+        if (res == 3) {
             alert('Parabens! Você Acertou e por conta disso ganhou um gatinho 😄😻')
-            navigate('/painel/inicio')
+            navigate('/painel/loja')
         }
-        if(res == 4){
+        if (res == 4) {
             alert('Você errou')
         }
     }

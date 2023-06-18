@@ -1,8 +1,9 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 export default function cadastro() {
-	const navigate = useNavigate
+	const navigate = useNavigate();
 	function Redirect() {
 		window.location.href = 'http://localhost:3000/painel/inicio';
 		navigate('http://localhost:3000/painel/inicio')

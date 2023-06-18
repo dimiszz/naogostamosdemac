@@ -153,7 +153,7 @@ export default function resumo() {
                         </p>
                         <p>
                             - Implementação de uma política de industrialização baseada na substituição de importações;
-                        </p>import { useNavigate } from 'react-router-dom';
+                        </p>
 
                         <p>
                             - Criação de leis trabalhistas e previdenciárias, como a CLT e o INSS;
@@ -193,34 +193,11 @@ export default function resumo() {
                             <button className='btn btn-success' onClick={e => Redirect()}>
                                 Ir para o Quiz
                             </button>
+                            <button className='btn btn-danger ms-2' onClick={e => alert('Sucesso!')}>
+                                Imprimir PDF
+                            </button>
                         </p>
-                        {/* <h2>QUIZ</h2> */}
-
-                        {/* <h3>
-                            Qual foi o período em que ocorreu a Guerra do Paraguai?
-                        </h3> */}
-
-                        {/* <RadioGroup onChange={setResposta} value={1}>
-                            <Stack direction='row'>
-                                <p>
-                                    <Radio value='1'>A) Brasil pré-colonial</Radio>
-                                </p>
-                                <p>
-                                    <Radio value='1'>B) Brasil colônia</Radio>
-                                </p>
-                                <p>
-                                    <Radio value='1'> C) Brasil monarquia (CERTA)</Radio>
-                                </p>
-                            </Stack>
-                        </RadioGroup>
-
-                        <p>
-                        </p>
-                        <p>
-                            <button className='btn btn-success'>
-                                Verificar Resposta
-                            </button> */}
-                        {/* </p> */}
+                    
                     </div>
                 </div>
             </div>
