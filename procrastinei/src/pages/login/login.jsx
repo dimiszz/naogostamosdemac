@@ -15,9 +15,9 @@ export default function login() {
 							Cadastrar-se
 						</span>
 
-						<span className=''> Nome de Usuário:</span>
 					<div class="wrap-input100 validate-input">
-						<input class="input100" type="text" placeholder="Nome de Usuário" />
+						<span className=''> Nome de Usuário:</span>
+						<input class="input100" type="text" value="Estudante" placeholder="Nome de Usuário" />
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -26,7 +26,7 @@ export default function login() {
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
 						<span className=''> Email:</span>
-						<input class="input100" type="text" name="email" placeholder="Email" />
+						<input class="input100" type="text" name="email" value="teste@gmail.com" placeholder="Email" />
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -35,7 +35,7 @@ export default function login() {
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
 					<span className=''> Senha:</span>
-						<input class="input100" type="password" name="pass" placeholder="Senha" />
+						<input class="input100" type="password" name="pass" value="1234" placeholder="Senha" />
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
@@ -44,7 +44,7 @@ export default function login() {
 					
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
 					<span className=''> Confirmar Senha:</span>
-						<input class="input100" type="password" name="pass" placeholder="Confirmar senha" />
+						<input class="input100" type="password" name="pass" value="1234" placeholder="Confirmar senha" />
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
@@ -53,8 +53,8 @@ export default function login() {
 					
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-					<span className=''> Estação:</span>
-						<input class="input100" type="text" placeholder="Digite sua estação" />
+					<span className=''> Estação de trem/metro:</span>
+						<input class="input100" type="text" value="Itaquaquecetuba" placeholder="Digite sua estação" />
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
