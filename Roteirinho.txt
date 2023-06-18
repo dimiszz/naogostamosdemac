@@ -1,0 +1,16 @@
+Objetivo: ajudar os alunos de SI que usam a CPTM a lidar com a procrastinação, tanto ajudando com as consequências dela quanto ajudando a superar ela 
+Solução: marcar um horário de estudo de última hora, motivar o estudo e simplificar o seu processo
+
+Método:
+-receber informações sobre o aluno: a estação de ida, o turno de estudo, conteúdo da prova, data da prova
+-adiar o estudo até o último momento de estudo, o transporte
+-encontrar o tempo aproximado de transporte de acordo com a estação
+-utilizar o chatgpt para resumir o conteúdo e apresentar
+-mostrar o resumo no site logado
+-botão para iniciar o quiz
+-notificação no último horário para iniciar o quiz
+-responder corretamente tem o prêmio de receber gatinhos
+-bônus para quem responder antes do último horário
+-ranking de quem tem mais gatinhos para incentivo
+
+
