@@ -7,18 +7,17 @@ export default function paginaInicial() {
       <BarraLateral t1='Login' t2='Cadastro' t3=''/>
       <div class="limiter">
         <div class="pg-inicial">
-          <div class="login100-pic js-tilt" data-tilt>
-            <img src="images/img-01.png" alt="IMG" />
-          </div>
           
-          <div class="text-presentation">
+          <img src="gato.jpg" alt="Gato" />
+          
+          <div class="text">
             <a class="txt1">
               Procrastinei
             </a>
           </div>
 
-          <div class="text-center">
-            <a class="txt2" href="#">
+          <div class="text">
+            <a class="txt2">
               Create your Account
             </a>
           </div>
