@@ -4,26 +4,22 @@ import BarraLateral from '../../components/BarraLateral'
 export default function paginaInicial() {
   return (
     <>
-      <BarraLateral t1='outra coisa'/>
+      <BarraLateral t1='Login' t2='Cadastro' t3=''/>
       <div class="limiter">
-        <div class="wrap-login100">
+        <div class="pg-inicial">
           <div class="login100-pic js-tilt" data-tilt>
             <img src="images/img-01.png" alt="IMG" />
           </div>
           
-          <div class="container-logcad">
-            <button class="logcad">
-              Login
-            </button>
-            <button class="logcad">
-              Cadastrar-se
-            </button>
+          <div class="text-presentation">
+            <a class="txt1">
+              Procrastinei
+            </a>
           </div>
 
-          <div class="text-center p-t-136">
+          <div class="text-center">
             <a class="txt2" href="#">
               Create your Account
-              <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
             </a>
           </div>
         </div>
