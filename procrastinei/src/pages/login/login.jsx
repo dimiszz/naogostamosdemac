@@ -1,90 +1,28 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
+import { Box, FormControl, FormHelperText, FormLabel, Input } from '@chakra-ui/react';
 
 export default function login() {
-  return (
-    <>
-		<div class="limiter">
-			<div class="container-login100">
-				<div class="wrap-login100">
-					<div class="login100-pic js-tilt" data-tilt>
-						<img src="images/img-01.png" alt="IMG" />
-					</div>
+	const navigate = useNavigate
+	function Redirect() {
+		window.location.href = 'http://localhost:3000/painel/inicio';
+		navigate('http://localhost:3000/painel/inicio')
+	}
 
-					<form class="login100-form validate-form">
-						<span class="login100-form-title">
-							Cadastrar-se
-						</span>
-
-					<div class="wrap-input100 validate-input">
-						<span className=''> Nome de Usuário:</span>
-						<input class="input100" type="text" value="Estudante" placeholder="Nome de Usuário" />
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</span>
+	return (
+		<>
+			<Box w='100%' h='100vh' p={4}>
+				<Box className='d-flex justify-content-center align-items-center' h='100%'>
+					<div className='formulario_envio'>
+						teste
+						<FormControl>
+							<FormLabel>Email address</FormLabel>
+							<Input type='email' />
+							<FormHelperText>We'll never share your email.</FormHelperText>
+						</FormControl>
 					</div>
-
-					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<span className=''> Email:</span>
-						<input class="input100" type="text" name="email" value="teste@gmail.com" placeholder="Email" />
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</span>
-					</div>
-
-					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-					<span className=''> Senha:</span>
-						<input class="input100" type="password" name="pass" value="1234" placeholder="Senha" />
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-						</span>
-					</div>
-					
-					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-					<span className=''> Confirmar Senha:</span>
-						<input class="input100" type="password" name="pass" value="1234" placeholder="Confirmar senha" />
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-						</span>
-					</div>
-					
-
-					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-					<span className=''> Estação de trem/metro:</span>
-						<input class="input100" type="text" value="Itaquaquecetuba" placeholder="Digite sua estação" />
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-						</span>
-					</div>
-					
-
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							Entrar
-						</button>
-					</div>
-
-					<div class="text-center p-t-12">
-						<a class="txt2" href="#">
-							Esqueceu sua senha?
-						</a>
-					</div>
-
-					<div class="text-center p-t-136">
-						<span>Não possui uma conta? </span>
-						<a class="txt2" href="#">
-							Criar conta
-							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
-						</a>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-    </>
-  )
+				</Box>
+			</Box>
+		</>
+	)
 }
