@@ -1,0 +1,10 @@
+Objetivo: encontrar solução para procrastinação de estudo
+Detalhe: aluno de SI da EACH que utilize o trem da linha safira
+Solução: marcar um horário de estudo e motivar o estudo
+
+Método:
+-receber informações sobre o aluno: a estação de ida, o turno de estudo, conteúdo da prova, data da prova
+-adiar o estudo até o último momento de estudo, o transporte
+-encontrar o tempo aproximado de transporte de acordo com a estação
+-utilizar o chatgpt para resumir o conteúdo e apresentar
+-
