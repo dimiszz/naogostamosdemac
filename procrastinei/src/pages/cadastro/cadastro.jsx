@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom'
 export default function cadastro() {
 	const navigate = useNavigate();
 	function Redirect() {
-		window.location.href = 'http://localhost:3000/painel/inicio';
-		navigate('http://localhost:3000/painel/inicio')
+		//window.location.href = 'http://localhost:3000/painel/inicio';
+		navigate('/painel/inicio')
 	}
 
 	return (
