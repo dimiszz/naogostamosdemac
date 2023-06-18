@@ -1,10 +1,12 @@
-topicos = ['a', 'b', 'c', 'd', 'e', 'f']
-a = len(topicos)
+a = """
+Qual foi o período de expansão colonial europeia na África?
 
+A) Século XVI
+B) Início do século XVIII
+C) Final do século XIX e início do século XX (CERTA)
+D) Meados do século XX
+"""
 
-temp = ', '.join(topicos[:a//2])
+a = a.split('\n')
 
-for i in range(2):
-    if i == 1:
-        temp = ', '.join(topicos[a//2:])
-    print(temp)
+print(a)
