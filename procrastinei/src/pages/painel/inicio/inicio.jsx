@@ -45,6 +45,17 @@ export default function inicio() {
 								/>
 							</div>
 							<div className="mb-3">
+								<label htmlFor="InputNome">Materia para estudar: </label>
+								<input
+									type="date"
+									value={'2023-06-19'}
+									className="form-control"
+									placeholder="Digite seu nome completo"
+									id="inputNome"
+									aria-describedby="Nome do usuario"
+								/>
+							</div>
+							<div className="mb-3">
 								<label htmlFor="InputNome">Lista de tópicos para o resumo: </label>
 								<p>
                                 <textarea
