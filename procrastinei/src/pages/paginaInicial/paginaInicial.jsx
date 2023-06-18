@@ -1,8 +1,10 @@
 import React from 'react'
+import BarraLateral from '../../components/BarraLateral'
 
 export default function paginaInicial() {
   return (
     <>
+      <BarraLateral t1='outra coisa'/>
       <div class="limiter">
         <div class="wrap-login100">
           <div class="login100-pic js-tilt" data-tilt>

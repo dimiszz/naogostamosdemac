@@ -2,14 +2,14 @@
 import React from 'react'
 import './styles.css'
 
-export default function barraLateral() {
+export default function barraLateral({t1}) {
   return (
     <>
       <div className='teste'>
         <div className="sidebar">
           <ul>
             <a className="link" href="#">
-              <li>Inicio</li>
+              <li>{t1}</li>
             </a>
             <a className="link" href="#">
               <li >Loja</li>
