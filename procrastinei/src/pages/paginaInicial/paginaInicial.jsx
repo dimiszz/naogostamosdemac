@@ -1,5 +1,6 @@
 import React from 'react'
 import BarraLateral from '../../components/BarraLateral'
+import gatinho from './gato.jpg'
 
 export default function paginaInicial() {
   return (
@@ -8,7 +9,7 @@ export default function paginaInicial() {
       <div class="limiter">
         <div class="pg-inicial">
           
-          <img src="gato.jpg" alt="Gato" />
+          <img src={gatinho} alt="Gato" height="500"/>
           
           <div class="text">
             <p class="txt1">
