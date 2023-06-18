@@ -11,15 +11,15 @@ export default function paginaInicial() {
           <img src="gato.jpg" alt="Gato" />
           
           <div class="text">
-            <a class="txt1">
-              Procrastinei
-            </a>
+            <p class="txt1">
+              <strong>Procrastinei</strong>
+            </p>
           </div>
 
           <div class="text">
-            <a class="txt2">
+            <p class="txt2">
               Create your Account
-            </a>
+            </p>
           </div>
         </div>
 
