@@ -8,7 +8,7 @@ export default function barraLateral({t1, t2, t3}) {
       <div className='teste'>
         <div className="sidebar">
           <div class="applogo" data-tilt>
-            <img src="images/img-01.png" alt="IMG" />
+            <img src="img.jpg" alt="IMG" />
           </div>
           <ul>
 
