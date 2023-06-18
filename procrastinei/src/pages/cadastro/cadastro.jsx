@@ -79,22 +79,14 @@ export default function cadastro() {
 								/>
 							</div>
                             <div className="mb-3">
-								<label htmlFor="InputNome">Estação: </label>
-								<input
-									type="text"
-									value={'Itaquaquecetuba'}
-									className="form-control"
-									placeholder="Digite seu nome completo"
-									id="inputNome"
-									aria-describedby="Nome do usuario"
-								/>
-							</div>
-                            <div className="mb-3">
 								<label htmlFor="InputNome">Turno de estudos: </label>
                                 <select className='form-select'>
                                     <option value="Matutino">Matutino</option>
                                     <option value="Noturno">Noturno</option>
                                 </select>
+							</div>
+							<div className="mb-3 text-center">
+								<label>Já possui uma conta? <a href="/login">Entrar</a> </label>
 							</div>
 							<div className="mb-3 text-center">
 								<button

@@ -49,6 +49,9 @@ export default function login() {
 									Entrar
 								</button>
 							</div>
+							<div className="mb-3 text-center">
+								<label>Não possui uma conta? <a href="/cadastro">Cadastrar</a> </label>
+							</div>
 
 
 						</form>

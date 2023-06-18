@@ -1,17 +1,27 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import React from 'react'
 import BarraLateral from '../../../components/BarraLateral'
-import {
-    Box, Input, FormControl,
-    FormLabel,
-    FormErrorMessage,
-    FormHelperText,
-} from '@chakra-ui/react'
 import './styles.css'
+import { useNavigate } from 'react-router-dom';
 
 export default function inicio() {
+
+    const navigate = useNavigate()
+
+    function Redirect(){
+        navigate('/resumo')
+    }
+
     return (
         <>
-            <BarraLateral t1='Inicio' t2='Loja' t3='Ranking' />
+            <BarraLateral 
+            t1='Inicio' 
+            t2='Miauvenventário' 
+            t3='Ranking' 
+            l1='http://localhost:3000/painel/inicio'
+            l2='http://localhost:3000/painel/loja'
+            l3='http://localhost:3000/painel/ranking'
+            />
             
             <div className="container-fluid vh-100">
 			<div className="d-flex justify-content-center align-items-center vh-md-100 vh-100">
@@ -27,7 +37,7 @@ export default function inicio() {
 								<label htmlFor="InputNome">Materia para estudar: </label>
 								<input
 									type="text"
-									value={'Calculo'}
+									value={'História do Brasil'}
 									className="form-control"
 									placeholder="Digite seu nome completo"
 									id="inputNome"
@@ -36,25 +46,29 @@ export default function inicio() {
 							</div>
 							<div className="mb-3">
 								<label htmlFor="InputNome">Lista de tópicos para o resumo: </label>
-								<textarea
+								<p>
+                                <textarea
 									type="textbox"
-                                    value='teste1
-                                    teste2
-                                    teste3
-                                    teste4
-                                    teste5'
+                                    value='Brasil pré-colonial
+                                    Brasil colônia
+                                    Brasil monarquia
+                                    Brasil república velha
+                                    Era Vargas
+                                    Ditadura Militar'
 
-									className="form-control h-auto"
-									placeholder="Digite seu nome completo"
+									className="w-100"
+									placeholder="Digite os tópicos"
 									id="inputNome"
 									aria-describedby="Nome do usuario"
 								/>
+                                </p>
 							</div>
 							<div className="mb-3 text-center">
 								<button
 									className='btn btn-success'
+                                    onClick={e => Redirect()}
                                     >
-									Enviar
+									Criar resumo
 								</button>
 							</div>
 
