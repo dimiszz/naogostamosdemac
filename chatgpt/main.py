@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"
+openai.api_key = ""
 
 materia = input('Qual a matéria? ')
 
